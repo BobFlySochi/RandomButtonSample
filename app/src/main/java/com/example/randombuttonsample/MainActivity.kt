@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
             val sRange = editStart.text.toString().toInt()
             val eRange = editEnd.text.toString().toInt()
             val randomDigit=(sRange .. eRange).random()
-            txtForRandom.text="$randomDigit"
+            txtForRandom.text="Результат: $randomDigit"
         }
     }
 }
